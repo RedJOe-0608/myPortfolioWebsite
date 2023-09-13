@@ -19,7 +19,7 @@ const FramerImage = motion(Image);
 
 const FeaturedProject = ({ type, title, summary, github, img, link }) => {
   return (
-    <article className="w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light dark:bg-dark dark:text-light shadow-2xl dark:shadow-light dark:shadow-lg p-8 relative lg:flex-col lg:p-6 xs:rounded-2xl xs:p-4">
+    <article className="w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light dark:bg-dark shadow-2xl dark:shadow-light dark:shadow-lg p-8 relative lg:flex-col lg:p-6 xs:rounded-2xl xs:p-4 dark:text-light text-dark">
       <Link
         className="w-1/2 lg:w-full  cursor-pointer overflow-hidden rounded-lg"
         href={link}
@@ -73,7 +73,7 @@ const Project = ({ type, title, github, img, link }) => {
       whileInView={{ y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, type: "spring" }}
-      className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark p-6 bg-light dark:bg-dark dark:text-light shadow-2xl dark:shadow-light dark:shadow-lg relative xs:p-4"
+      className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark p-6 bg-light dark:bg-dark dark:text-light text-dark shadow-2xl dark:shadow-light dark:shadow-lg relative xs:p-4"
     >
       <Link
         className="w-full cursor-pointer overflow-hidden rounded-lg"
