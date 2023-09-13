@@ -1,0 +1,6 @@
+group property of Tailwind
+useRouter() from next
+flex-wrap
+framer motion
+staggeredChildren
+display: inline-block
