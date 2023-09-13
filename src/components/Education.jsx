@@ -37,7 +37,7 @@ const Education = () => {
   });
 
   return (
-    <div className="my-64 md:my-32 ">
+    <div className="my-64 md:my-32 dark:text-light text-dark">
       <AnimatedText
         text="Education And Experience"
         className="py-16 md:text-6xl xs:text-4xl md:mb-16"
