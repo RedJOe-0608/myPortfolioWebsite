@@ -11,6 +11,7 @@ import magicMemoryPic from "../../public/images/projects/magic-memory-pic.png";
 import shirt from "../../public/images/projects/customise-shirt-pic.png";
 import myDrive from "../../public/images/projects/myDrive-pic.png";
 import backRoads from "../../public/images/projects/back-roads-pic.png";
+import analogClock from "../../public/images/projects/analog-clock-pic.png";
 
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -191,15 +192,15 @@ const projects = () => {
                 img={myDrive}
               />
             </div>
-            {/* <div className="col-span-6 md:col-span-12">
+            <div className="col-span-6 md:col-span-12">
               <Project
                 title="Crypto Screener Application"
                 type="Featured Project"
-                link="/"
-                github="/"
-                img={myShop}
+                link="https://analog-clock-using-vanilajs.netlify.app/"
+                github="https://github.com/RedJOe-0608/Analog-Clock-Using-Js"
+                img={analogClock}
               />
-            </div> */}
+            </div>
           </div>
         </Layout>
       </main>
