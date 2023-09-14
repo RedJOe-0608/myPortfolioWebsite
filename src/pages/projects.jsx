@@ -194,7 +194,7 @@ const projects = () => {
             </div>
             <div className="col-span-6 md:col-span-12">
               <Project
-                title="Crypto Screener Application"
+                title="Analog Clock Using HTML, CSS, JS"
                 type="Featured Project"
                 link="https://analog-clock-using-vanilajs.netlify.app/"
                 github="https://github.com/RedJOe-0608/Analog-Clock-Using-Js"
