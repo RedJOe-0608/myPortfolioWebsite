@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/developer-pic-1.png";
+import profilePic from "../../public/images/profilepic.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
@@ -20,13 +20,13 @@ export default function Home() {
       <main className="flex items-center text-dark dark:text-light w-full min-h-screen">
         <Layout className="pt-0 md:pt-16 sm:!p-8 sm:pt-8">
           <div className="flex items-center w-full lg:flex-col">
-            <div className="w-1/2 md:!w-full">
-              <Image
-                priority
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-                className="w-full h-auto lg:hidden md:!inline-block md:!w-full"
+            <div className="w-1/2 lg:flex justify-center md:!w-full">
+            <Image
                 src={profilePic}
-                alt="Image"
+                alt="Image for home"
+                priority
+                // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+                className="w-[60%] relative rounded-2xl"
               />
             </div>
             <div className="w-1/2 flex flex-col items-center lg:w-full lg:text-center ">
