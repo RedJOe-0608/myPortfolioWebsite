@@ -18,9 +18,9 @@ export default function Home() {
       </Head>
       <TransitionEffect />
       <main className="flex items-center text-dark dark:text-light w-full min-h-screen">
-        <Layout className="pt-0 md:pt-16 sm:!p-8 sm:pt-8">
+        <Layout className="pt-0 md:pt-16 sm:!p-8 sm:pt-4">
           <div className="flex items-center w-full lg:flex-col">
-            <div className="w-1/2 lg:flex justify-center md:!w-full">
+            <div className="w-1/2 lg:flex justify-center md:!w-full mb-8">
             <Image
                 src={profilePic}
                 alt="Image for home"
